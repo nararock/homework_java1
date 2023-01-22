@@ -4,10 +4,8 @@ public class task3 {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("Введите первое число: ");
-        // int num1 = Integer.parseInt(iScanner.nextLine());
         double num1 = Double.parseDouble(iScanner.nextLine());
         System.out.printf("Введите второе число: ");
-        // int num2 = Integer.parseInt(iScanner.nextLine());
         double num2 = Double.parseDouble(iScanner.nextLine());
         System.out.printf("Введите операцию число: ");
         String sign = iScanner.nextLine();
@@ -28,6 +26,5 @@ public class task3 {
                 System.out.println("Такой операции нет");
                 break;
         }
-
     }
 }

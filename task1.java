@@ -1,8 +1,5 @@
 import java.util.Scanner;
 
-/**
- * task1
- */
 public class task1 {
 
     static int factorial(int n) {
