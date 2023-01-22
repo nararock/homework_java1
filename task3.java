@@ -7,7 +7,7 @@ public class task3 {
         double num1 = Double.parseDouble(iScanner.nextLine());
         System.out.printf("Введите второе число: ");
         double num2 = Double.parseDouble(iScanner.nextLine());
-        System.out.printf("Введите операцию число: ");
+        System.out.printf("Введите операцию: ");
         String sign = iScanner.nextLine();
         switch (sign) {
             case "+":
